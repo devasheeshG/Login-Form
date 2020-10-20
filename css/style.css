@@ -1,0 +1,76 @@
+/* css reset */
+*{
+      margin: 0;
+      padding: 0;
+}
+
+body{
+      background: url(../images/bg.jpg) no-repeat center fixed;
+      background-size: cover;
+
+}
+
+.container{
+      color: white;
+      position: absolute;
+      top: 37%;
+      left: 35%;
+      width: 25%;
+
+}
+
+.container h1{
+      font-size: 40px;
+      border-bottom: 5px solid purple;
+      margin-bottom: 15px;
+      padding: 13px 0;
+      display: inline-block;
+}
+
+
+.box{
+      width: 100%;
+      border-bottom: 2px solid purple;
+      margin: 32px 0px;
+}
+.box input{
+      width: 75%;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 5px 10px;
+      font-size: 20px;
+      background: none;
+}
+
+.box i{
+      width: 25px;
+
+      text-align: center; 
+}
+
+.btn{
+      cursor: pointer;
+      outline: none;
+      margin: 25px 0;
+      padding: 10px 21px;
+      border-radius: 10px;
+      border: 2px solid purple;
+      font-size: 15px;
+      color: white;
+      background: none;
+      font-weight: bold;
+}
+
+.btn:hover{
+      cursor: pointer;
+      outline: none;
+      margin: 25px 0;
+      padding: 10px 21px;
+      border-radius: 10px;
+      border: 2px solid purple;
+      font-size: 15px;
+      color: purple;
+      background: white;
+      font-weight: bold;
+}
